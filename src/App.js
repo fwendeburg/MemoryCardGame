@@ -1,4 +1,4 @@
-import React, { useEffect, useReducer } from "react";
+import React, { useEffect } from "react";
 import useState from 'react-usestateref';
 
 import Navbar from "./Navbar";
@@ -13,7 +13,7 @@ function App() {
   const [score, setScore, scoreRef] = useState(0);
   const [highScore, setHS, HSRef] = useState(0);
   const [unusedChampions, setUnusedChampions] = useState([]);
-  const [usedChampions, setUsedChampions, usedChampionsRef] = useState([]);
+  const [usedChampions, setUsedChampions] = useState([]);
   const [lvl, setLvl] = useState(1);
   const [gameFinished, setGameFinished] = useState(false);
 
@@ -57,7 +57,7 @@ function App() {
       newUsedChamps.push({champion: unusedChampions[index], clicked: false});
     });
 
-    setUsedChampions([...usedChampionsRef.current, ...newUsedChamps])
+    setUsedChampions([...usedChampions, ...newUsedChamps]);
   }
 
   function getChampionObj(champion) {
