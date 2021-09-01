@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/static/js/main.c4d4ad2d.chunk.js",
+    "main.js.map": "/static/js/main.c4d4ad2d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fb14604b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fb14604b.js.map",
+    "static/js/2.3b690777.chunk.js": "/static/js/2.3b690777.chunk.js",
+    "static/js/2.3b690777.chunk.js.map": "/static/js/2.3b690777.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.3b690777.chunk.js.LICENSE.txt": "/static/js/2.3b690777.chunk.js.LICENSE.txt",
+    "static/media/League-of-Legends-Logo.82127146.png": "/static/media/League-of-Legends-Logo.82127146.png",
+    "static/media/loading.6782897e.svg": "/static/media/loading.6782897e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb14604b.js",
+    "static/js/2.3b690777.chunk.js",
+    "static/js/main.c4d4ad2d.chunk.js"
+  ]
+}
