@@ -18,7 +18,7 @@ function App() {
   const [gameFinished, setGameFinished] = useState(false);
 
   async function getChampionList() {
-    let response = await fetch('http://ddragon.leagueoflegends.com/cdn/11.16.1/data/en_US/champion.json');
+    let response = await fetch('https://ddragon.leagueoflegends.com/cdn/11.16.1/data/en_US/champion.json');
     let respJSON = await response.json();
 
     setUnusedChampions(Object.keys(respJSON['data']));
