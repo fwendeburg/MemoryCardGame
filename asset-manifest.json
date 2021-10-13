@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "./static/js/main.e4292ff7.chunk.js",
-    "main.js.map": "./static/js/main.e4292ff7.chunk.js.map",
+    "main.js": "./static/js/main.38cb6f9e.chunk.js",
+    "main.js.map": "./static/js/main.38cb6f9e.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.cef1ce52.js",
     "runtime-main.js.map": "./static/js/runtime-main.cef1ce52.js.map",
-    "static/js/2.69b78d39.chunk.js": "./static/js/2.69b78d39.chunk.js",
-    "static/js/2.69b78d39.chunk.js.map": "./static/js/2.69b78d39.chunk.js.map",
+    "static/js/2.d5229654.chunk.js": "./static/js/2.d5229654.chunk.js",
+    "static/js/2.d5229654.chunk.js.map": "./static/js/2.d5229654.chunk.js.map",
     "index.html": "./index.html",
-    "static/js/2.69b78d39.chunk.js.LICENSE.txt": "./static/js/2.69b78d39.chunk.js.LICENSE.txt",
+    "static/js/2.d5229654.chunk.js.LICENSE.txt": "./static/js/2.d5229654.chunk.js.LICENSE.txt",
     "static/media/League-of-Legends-Logo.82127146.png": "./static/media/League-of-Legends-Logo.82127146.png",
     "static/media/loading.6782897e.svg": "./static/media/loading.6782897e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cef1ce52.js",
-    "static/js/2.69b78d39.chunk.js",
-    "static/js/main.e4292ff7.chunk.js"
+    "static/js/2.d5229654.chunk.js",
+    "static/js/main.38cb6f9e.chunk.js"
   ]
 }
