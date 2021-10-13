@@ -26,6 +26,10 @@ function Main({champions, handleCardCLick}) {
     }
 
     useEffect(() => {
+        shuffleArray(cards);
+    });
+
+    useEffect(() => {   
         let newCards = [];
         let counter = 0;
 
