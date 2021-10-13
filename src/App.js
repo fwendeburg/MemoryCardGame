@@ -13,7 +13,7 @@ function App() {
   const [score, setScore, scoreRef] = useState(0);
   const [highScore, setHS, HSRef] = useState(0);
   const [unusedChampions, setUnusedChampions] = useState([]);
-  const [usedChampions, setUsedChampions] = useState([]);
+  const [usedChampions, setUsedChampions, usedChampionsRef] = useState([]);
   const [lvl, setLvl] = useState(1);
   const [gameFinished, setGameFinished] = useState(false);
 
@@ -57,7 +57,7 @@ function App() {
       newUsedChamps.push({champion: unusedChampions[index], clicked: false});
     });
 
-    setUsedChampions([...usedChampions, ...newUsedChamps]);
+    setUsedChampions([...usedChampionsRef.current, ...newUsedChamps]);
   }
 
   function getChampionObj(champion) {
@@ -99,7 +99,7 @@ function App() {
   }
 
   async function handleNewGame() {
-    await setUsedChampions([]);
+    setUsedChampions([]);
     handleScoreBoard(true);
     setGameFinished(false);
     setLvl(1);
