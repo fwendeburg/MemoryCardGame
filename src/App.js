@@ -99,11 +99,10 @@ function App() {
   }
 
   async function handleNewGame() {
-    setUsedChampions([]);
+    await setUsedChampions([]);
     handleScoreBoard(true);
     setGameFinished(false);
     setLvl(1);
-    handleGetNewChampions();
   }
 
   function handleCardCLick(e) {
